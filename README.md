@@ -35,16 +35,19 @@ Currently, most call centers use a simplified version of the Erlang A formula, c
 
 ## Data Manipulation <a name="data-manipulation"></a>
 
-The data was obtained from a real-world call center database, divided by several sites (identified by number).
-The variables in this file are:
-  Campaign (site number)
-  Start date (date of call)
-  Total calls (all calls done on that day)
-  Abandoned calls (calls that were on hold for at least 15 seconds and were not answered)
-  Handled calls (calls that were handled by employees)
-  Count of reps (amount of employees)
+The data was obtained from a real-world call center database, divided by several sites (identified by number). The data goes from 01/01/2021 to 29/12/2022, with about 14,000 lines for all sites together.
 
-We graph several site's data in order to compare and select the least anomalous one.
+The Jupyter Notebook goes through the process of explaining the data manipulation in order to convert it to a time-series and to normalize it. We graph several site's data in order to compare and select the least anomalous one.
+
+The selected site, 237322 is shown below:
+
+<p align="center">
+  <img src="[your_relative_path_here](https://github.com/[username]/[reponame]/blob/[branch]/image](https://github.com/Traze3/autonomous_raptor/blob/main/Pictures/237322_cor.png)" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image](https://github.com/Traze3/autonomous_raptor/blob/main/Pictures/237322_cor.png?raw=true)
+
 
 We proceed with the data normalization and cleaning, to start the models.
 
