@@ -41,13 +41,7 @@ The Jupyter Notebook goes through the process of explaining the data manipulatio
 
 The selected site, 237322 is shown below:
 
-<p align="center">
-  <img src="[your_relative_path_here](https://github.com/[username]/[reponame]/blob/[branch]/image](https://github.com/Traze3/autonomous_raptor/blob/main/Pictures/237322_cor.png)" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
-</p>
-
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image](https://github.com/Traze3/autonomous_raptor/blob/main/Pictures/237322_cor.png?raw=true)
-
+[![Count of Employees in site 237322][237322-cor]
 
 We proceed with the data normalization and cleaning, to start the models.
 
@@ -67,3 +61,7 @@ After the models are completed, we notice that the sites all have something in c
 
 <a id="1">[1]</a> 
 CHROMY, E., MISUTH, T., & KAVACKY, M. (March 2011). Erlang C Formula and its Use in the Call Centers. Information and Communication Technologies and Services.
+
+## Images
+
+[237322-cor]: pictures/237322-cor.png
