@@ -6,7 +6,7 @@
 
 ## Index
 
-<a href="introduction">Introduction</a>
+<a href="#introduction">Introduction</a>
 
 <a href="data-manipulation">Data manipulation</a>
 
@@ -22,7 +22,7 @@
  
 <a href="conclusion-and-future-thoughts">Conclusion and future thoughts</a>
 
-<a href="references">References</a>
+<a href="#references">References</a>
 
 ## Introduction <a name="introduction"></a>
 
