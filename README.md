@@ -153,7 +153,7 @@ This happens not only with this site, but with at least 2 other sites (and more,
 
 ### Site 249337:
 
-![249337 employee increase][237322-jump]
+![249337 employee increase][249337-jump]
 
 ### Site 249760:
 
