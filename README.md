@@ -8,19 +8,19 @@
 
 <a href="#introduction">Introduction</a>
 
-<a href="data-manipulation">Data manipulation</a>
+<a href="#data-manipulation">Data manipulation</a>
 
-<a href="models">Models</a>
+<a href="#models">Models</a>
  
-<a href="xgboost-model">XGBoost model</a>
+<a href="#xgboost-model">XGBoost model</a>
 
-<a href="rf-model">Random Forest model</a>
+<a href="#rf-model">Random Forest model</a>
 
-<a href="rnn-model">Recurrent Neural Network model</a>
+<a href="#rnn-model">Recurrent Neural Network model</a>
  
-<a href="model-comparison">Model comparison</a>
+<a href="#model-comparison">Model comparison</a>
  
-<a href="conclusion-and-future-thoughts">Conclusion and future thoughts</a>
+<a href="#conclusion-and-future-thoughts">Conclusion and future thoughts</a>
 
 <a href="#references">References</a>
 
@@ -43,7 +43,7 @@ In this project, we aim to calculate the amount of employees needed on site ever
 
 Currently, most call centers use a simplified version of the Erlang A formula, called Erlang C. [[1]](#1)
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Data Manipulation <a name="data-manipulation"></a>
 
@@ -61,7 +61,7 @@ The selected site, 237322 is shown below.
 
 ![Handled calls on site 237322][237322-hc]
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Models <a name="models"></a>
 
@@ -69,7 +69,7 @@ For the model selection, I based it on a paper by Hou, Cao & Fan [[2]](#2), in w
 
 The parameters of each model are shown in the Jupyter Notebook as well. After training the models, the prediction of each one is as follows.
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## XGBoost model <a name="xgboost-model"></a>
 
@@ -81,7 +81,7 @@ And when the model is trained and tested against the real data, it stacks up lik
 
 ![XGBoost prediction][xgboost-pred]
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Random Forest model <a name="rf-model"></a>
 
@@ -101,7 +101,7 @@ We use the results of the above table (max depth=10, n_estimators=100 with 20 la
 
 Which, does not seem to improve the prediction and, in this case, even worsens it.
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Recurrent Neural Network model <a name="rnn-model"></a>
 
@@ -121,7 +121,7 @@ As you can see in the above graph and in the following table, an increase in the
 
 ![Recurrent Neural Network epochs][rnn-epoch]
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Model comparison <a name="model-comparison"></a>
 
@@ -133,7 +133,7 @@ Comparing the models, we obtain the mean squared error and mean absolute error f
 
 ![Boxplot of errors of the models][all-boxplot]
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Conclusion and future thoughts <a name="conclusion-and-future-thoughts"></a>
 
@@ -167,7 +167,7 @@ This, along with some studies such as the one by Robbins, Medeiros & Harrison [[
 For future thoughts, my suggestions would be to look into other models, perhaps changing the hyperparameters of the recurrent neural network can improve its accuracy.
 Another suggestion would be to obtain a greater dataset, as this one only includes 2 years (I excluded 2020 due to the pandemic conditions that affected every industry).
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## References <a name="references"></a>
 
@@ -183,7 +183,7 @@ Amat, J. R. (Obtained on December 2022). skforecast. Skforecast's API: https://j
 <a id="4">[4]</a> 
 Robbins, T. R., Medeiros, D. J., & Harrison, T. P. (2010). Does the Erlang C model fit in real call centers? Winter Simulation Conference.
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--Images and links-->
 
